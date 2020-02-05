@@ -16,6 +16,7 @@ void confirmPendingUser(
   auto& ctx = RRefContext::getInstance();
   ctx.delPendingUser(rr->forkId());
 }
+
 } // namespace callback
 
 // Keys for RRef-related debug information.
